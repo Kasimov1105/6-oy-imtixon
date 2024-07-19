@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="hero">
+        <img src="./img/shar.png" alt="">
+        <img class="two" src="./img/shar2.png" alt="">
+    </div>
+    <div class="text-wrapper">
+        <div class="spinner-overlay" id="spinner" style="display: none;"><span class="loader"></span></div>
+        <h1>Sign In.</h1>
+        <div class="links">
+            <div>
+                <img src="./img/google.svg" alt="">
+                <a href="#">Continue with Google</a>
+            </div>
+            <div>
+                <img src="./img/facebook.svg" alt="">
+                <a href="#">Continue with Facebook</a>
+            </div>
+        </div>
+        <p>or</p>
+        <form class="login" id="forms">
+            <input required type="text" name="username" id="email" placeholder="Email or Phone Number">
+            <input required type="password" name="password" id="password" placeholder="Password">
+            <div class="btnn">
+                <button id="login-button" type="submit">Sign In.</button>
+                <a href="#">Forget Password?</a>
+            </div>
+        </form>
+    </div>
+    <script type="module" src="./login.js"></script>
+</body>
+</html>

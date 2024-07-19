@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+    <header>
+        <div>
+            <img src="./img/Logo.svg" alt="logo">
+        </div>
+        <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Admin</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <img src="./img/search 1.svg" alt="search">
+    </div>
+    </header>
+
+    <div class="hero__">
+        <div class="wrapper">
+            <img class="shapes" src="./img/Shapes.png" alt="">
+            <div class="text__wrapper">
+                <h1>Best Furniture Collection for your interior.</h1>
+                <button>Shop Now 
+                    <img src="./img/Right 24px.svg" alt="">
+                </button>
+            </div>
+            <div class="img__wrapper">
+                <img src="./img/foiz.png" alt="">
+                <img src="./img/Product Image.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <main>
+        <div class="maxuslot">
+            <form>
+                <label for="productName">Mahsulot Nomi:</label>
+            <input required id="name" placeholder="Product Name" type="text">
+            <label for="productPrice">Narxi:</label>
+            <input required id="price"  type="number" placeholder="Product Price" >
+            <label for="productDescription">Ta'rif:</label>
+            <input id="dis"  required  placeholder="Product Description">
+            <button id="productbtn" type="submit" >Add Product</button>
+        </form>
+        </div>
+        <div class="list" id="list"></div>
+    </main>
+   <script  type="module" src="./home.js"></script>
+</body>
+</html>
